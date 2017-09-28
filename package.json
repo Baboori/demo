@@ -1,5 +1,5 @@
 {
-  "name": "play-by-play",
+  "name": "Demo Node skills",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,8 +14,6 @@
     "body-parser": "^1.14.1",
     "express": "~4.13.3",
     "lodash": "^3.10.1",
-    "mongoose": "^4.2.7",
-    "redis": "^2.3.1",
     "request": "^2.67.0"
   }
 }
