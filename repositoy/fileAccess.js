@@ -12,7 +12,6 @@ exports.readFile = function (fileName) {
         encoding: 'utf-8'
     }, function (err, data) {
         if (err) throw err;
-        console.log(data);
         return data;
     });
 }
@@ -23,4 +22,11 @@ exports.writeFile = function () {
         console.log('Writing is done.');
     });
 }
+
+exports.readFsSync = function(fileName){
+     var content =  fs.readFileSync(path.join(__dirname, config.dataFilePath + fileName),'utf-8');
+     return JSON.parse(content);
+}
+
+
 

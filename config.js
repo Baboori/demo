@@ -1,4 +1,5 @@
 var appConfig = {};
 
-appConfig.dataFilePath = '../dataFiles/customerData.json';
+appConfig.dataFilePath = '../dataFiles/';
+appConfig.customerDataFileName ='customerData.json';
 module.exports = appConfig;

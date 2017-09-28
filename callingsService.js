@@ -5,7 +5,7 @@ var options = {
   "method": "GET",
   "hostname": "127.0.0.1",
   "port": 3005,
-  "path": "/customer/name/amar/goud",
+  "path": "/customer/list",
   "method": 'GET'
 };
 
