@@ -12,7 +12,7 @@ Down load application from github.
 
 run
 #  npm install
-Mocha need to install global level
+To mocha install global level
 
 # npm install -g mocha
 
