@@ -81,6 +81,13 @@ req.end();
 # > node callingService.js
 
 
+# HackerRank Code Excercise
+
+see code at file hackerRankCodeExcercise.js
+To run code execute below command 
+
+#  node hackerRankCodeExcercise.js
+
 
 
 
