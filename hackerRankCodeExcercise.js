@@ -1,3 +1,4 @@
+// 20 minutes  challenge
 var http = require("https");
 var fs = require('fs');
 var path = require('path');
@@ -50,7 +51,7 @@ function repeatedWordCount(Content,  word, showFullCount){
     
   }
   if(showFullCount)
-   process.stdout.write ("total word count : " + repeatedCount + "\n");
+   process.stdout.write ("total word count : " + count + "\n");
 
    process.stdout.write (word+ " repeated count : " + repeatedCount);
 }
